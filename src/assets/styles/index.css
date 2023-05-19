@@ -21,6 +21,8 @@
 
 /* config/breakpoints */
 
+@import './config/breakpoints/navbar-desktop-breakpoints.css';
+
 /* vendors-extensions */
 
 @import './vendors-extensions/bootstrap-overrides.css';
