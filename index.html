@@ -25,6 +25,13 @@
       <nav
         class="my-navbar navbar navbar-light bg-light container d-flex p-2 bg-transparent"
       >
+        <button
+          type="button"
+          class="hamburger-button"
+          data-toggle-mobile-menu-btn
+        >
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </button>
         <a class="navbar-brand" href="index.html">
           <img
             src="src/assets/media/icons-logos/ferrari-logo-png.png"
@@ -34,33 +41,43 @@
             alt="ferrari logo"
           />
         </a>
-        <ul class="d-flex list-unstyled">
+        <ul class="d-flex list-unstyled" data-mobile-menu>
           <li>
             <a href="" class="my-navbar__link text-decoration-none">About</a>
           </li>
-          <li class="ms-4">
+          <li>
             <a href="#" class="my-navbar__link text-decoration-none">Program</a>
           </li>
-          <li class="ms-4">
+          <li>
             <a href="#" class="my-navbar__link text-decoration-none">Join</a>
           </li>
-          <li class="ms-4">
+          <li>
             <a href="#" class="my-navbar__link text-decoration-none">Sponsor</a>
           </li>
-          <li class="ms-4">
+          <li>
             <a href="#" class="my-navbar__link text-decoration-none">News</a>
           </li>
-          <li class="ms-4">
+          <li>
             <a
               href="https://www.ferrari.com/"
-              class="my-navbar__bordered-link text-decoration-none"
+              class="my-navbar__link bordered-link text-decoration-none"
               target="_blank"
               rel="noopener noreferrer"
               >Ferrari Cars</a
             >
           </li>
+          <li>
+            <button type="button" class="x-button" data-toggle-mobile-menu-btn>
+              <i class="fa-sharp fa-solid fa-xmark"></i>
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
+    <script
+      src="https://kit.fontawesome.com/5d25a44371.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/assets/js/UX/toggle-mobile-menu.js"></script>
   </body>
 </html>
