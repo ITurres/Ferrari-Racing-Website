@@ -1,0 +1,12 @@
+/* colors */
+
+:root {
+  --color-dark-blue: #272a31;
+  --color-orange: #ec5442;
+  --color-light-gray: #d3d3d3;
+}
+
+/* transitions */
+:root {
+  --transition-all-02s-eio: all 0.2s ease-in-out;
+}
