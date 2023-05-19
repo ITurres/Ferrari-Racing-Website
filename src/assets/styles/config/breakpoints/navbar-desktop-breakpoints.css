@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+  .my-header {
+    background-color: #fff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .my-navbar ul {
+    position: initial;
+    visibility: visible;
+    flex-direction: row;
+    z-index: 0;
+    height: auto;
+    width: initial;
+    padding: 0;
+    border-right: none;
+  }
+
+  .hamburger-button,
+  .x-button {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+
+  .my-navbar__link {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-left: 3rem;
+  }
+
+  .my-navbar__link,
+  .my-navbar__link.bordered-link {
+    transition: var(--transition-all-02s-eio);
+  }
+
+  .my-navbar__link:hover {
+    color: var(--color-orange);
+  }
+
+  .my-navbar__link.bordered-link:hover {
+    border: 4px dashed var(--color-orange);
+  }
+}
