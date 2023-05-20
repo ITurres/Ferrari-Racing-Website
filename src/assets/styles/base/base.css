@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   font-family: 'Lato', sans-serif;
   background-color: #fff;
+  color: var(--color-dark-blue);
   line-height: 1.4;
 }
 
