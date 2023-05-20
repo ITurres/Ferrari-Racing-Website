@@ -1,6 +1,6 @@
 /* abstracts */
 
-@import './abstracts/variables.css';
+@import 'abstracts/variables.css';
 
 /* base */
 
@@ -16,13 +16,15 @@
 /* layout */
 
 @import 'layout/navbar.css';
+@import 'layout/hero-section.css';
 
 /* pages */
 
 /* config/breakpoints */
 
-@import './config/breakpoints/navbar-desktop-breakpoints.css';
+@import 'config/breakpoints/navbar-desktop-breakpoints.css';
+@import 'config/breakpoints/hero-section-desktop-breakpoints.css';
 
 /* vendors-extensions */
 
-@import './vendors-extensions/bootstrap-overrides.css';
+@import 'vendors-extensions/bootstrap-overrides.css';
