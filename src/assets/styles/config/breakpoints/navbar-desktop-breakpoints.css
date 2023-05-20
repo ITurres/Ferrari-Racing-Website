@@ -26,8 +26,9 @@
 
   .my-navbar__link {
     font-size: 1.1rem;
-    font-weight: 400;
+    font-weight: 800;
     margin-left: 3rem;
+    color: var(--color-dark-gray);
   }
 
   .my-navbar__link,
