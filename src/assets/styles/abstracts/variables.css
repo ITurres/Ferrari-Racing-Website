@@ -1,7 +1,10 @@
 :root {
   /* colors */
   --color-dark-blue: #272a31;
+  --color-red: #e61e08;
+  --color-dark-red: #6d0b00;
   --color-orange: #ec5442;
+  --color-bright-orange: #f79925;
   --color-orange-transparent: #ec534298;
   --color-white: #fff;
   --color-light-gray: #d3d3d3;
