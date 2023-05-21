@@ -5,6 +5,10 @@
     gap: 0.5rem;
   }
 
+  hr {
+    margin-bottom: 2.5rem;
+  }
+
   .activity--wrapper {
     flex-direction: column;
     gap: 0;
@@ -34,7 +38,8 @@
     text-decoration: underline;
     text-transform: uppercase;
     padding: 2rem 0.5rem;
-    margin: 2rem 0;
+    width: fit-content;
+    margin: 2rem auto 3rem auto;
     transition: var(--transition-all-02s-eio);
   }
 
