@@ -38,7 +38,7 @@ const upcomingRacesdb = {
     circuit: {
       name: 'Miami Grand Prix',
       about:
-        'This was not the easiest of Sundays for Scuderia Ferrari, which comes away from the United States with a fifth place for Carlos Sainz.'
+        'This was not the easiest of Sundays for Scuderia Ferrari, which comes away from the United States with a fifth place for Sainz.'
     },
     date: {
       dateTime: '05 - 07 May',
