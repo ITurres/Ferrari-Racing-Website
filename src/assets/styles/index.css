@@ -11,6 +11,8 @@
 
 /* UI */
 
+@import 'components/UI/mobile-buy-tickets-btn.css';
+
 /* UX */
 
 /* layout */
@@ -19,11 +21,13 @@
 @import 'layout/hero-section.css';
 
 /* pages */
+@import 'pages/home-page.css';
 
 /* config/breakpoints */
 
 @import 'config/breakpoints/navbar-desktop-breakpoints.css';
 @import 'config/breakpoints/hero-section-desktop-breakpoints.css';
+@import 'config/breakpoints/home-page-activities-section-breakpoints.css';
 
 /* vendors-extensions */
 
