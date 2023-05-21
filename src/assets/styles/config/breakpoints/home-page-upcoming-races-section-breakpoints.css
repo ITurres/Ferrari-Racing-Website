@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+  .race-card__image {
+    max-width: 160px;
+  }
+
+  .race-card__about {
+    font-size: 1rem;
+  }
+}
