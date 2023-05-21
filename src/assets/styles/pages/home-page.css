@@ -16,10 +16,6 @@
   font-weight: 400;
 }
 
-.activity-name {
-  color: var(--color-orange);
-}
-
 hr {
   background-color: var(--color-dark-orange);
   border: 1px solid var(--color-dark-orange);
