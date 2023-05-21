@@ -3,9 +3,9 @@
   width: 100%;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   display: none;
-}
+} */
 
 .my-navbar {
   height: 76px;
@@ -32,7 +32,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 90%;
+  width: 80%;
   top: 0;
   left: 0;
   z-index: 500;
