@@ -92,7 +92,7 @@
       </div>
     </section>
     <section id="activities" class="d-flex flex-column">
-      <h2 class="activities__title text-center display-6 mt-5">Activities</h2>
+      <h2 class="section__title text-center display-6 mt-5">Activities</h2>
       <hr />
       <div class="activities-container container" data-activities-holder>
         <!-- activities will be auto injected -->
@@ -108,6 +108,16 @@
         Buy your exclusive tickets here
       </button>
     </section>
+    <section id="upcoming-races" class="d-flex flex-column container">
+      <h2 class="section__title text-center display-6 mt-5">Upcoming Races</h2>
+      <hr />
+      <div
+        class="upcoming-races-container container"
+        data-upcoming-races-holder
+      >
+        <!-- upcoming-races country-circuits cards will be auto injected -->
+      </div>
+    </section>
     <script
       src="https://kit.fontawesome.com/5d25a44371.js"
       crossorigin="anonymous"
@@ -115,6 +125,10 @@
     <script src="src/assets/js/UX/toggle-mobile-menu.js"></script>
     <script
       src="src/assets/js/markup-injectors/inject-activity-markup-template.js"
+      type="module"
+    ></script>
+    <script
+      src="src/assets/js/markup-injectors/inject-upcoming-race-markup-template.js"
       type="module"
     ></script>
   </body>
