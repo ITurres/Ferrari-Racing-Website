@@ -9,6 +9,7 @@
   --color-white: #fff;
   --color-light-gray: #d3d3d3;
   --color-dark-gray: #4f4f4f;
+  --color-dark-gray-transparent: #4f4f4f83;
 
   /* transitions */
   --transition-all-02s-eio: all 0.2s ease-in-out;
