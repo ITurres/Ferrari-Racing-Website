@@ -1,4 +1,8 @@
 @media (min-width: 768px) {
+  .upcoming-races-container {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+
   .race-card__image {
     max-width: 160px;
   }
