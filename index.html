@@ -75,6 +75,7 @@
       </nav>
     </header>
     <section
+      id="top-page"
       class="hero-section d-flex flex-column justify-content-center align-items-center"
     >
       <div class="hero-section__content container mt-5">
@@ -90,10 +91,31 @@
         </p>
       </div>
     </section>
+    <section id="activities" class="d-flex flex-column">
+      <h2 class="activities__title text-center display-6 mt-5">Activities</h2>
+      <hr />
+      <div class="activities-container container" data-activities-holder>
+        <!-- activities will be auto injected -->
+      </div>
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="desktop-activities-link"
+        >See all the activities</a
+      >
+      <button class="my-btn mobile-buy-tickets-btn" type="button">
+        Buy your exclusive tickets here
+      </button>
+    </section>
     <script
       src="https://kit.fontawesome.com/5d25a44371.js"
       crossorigin="anonymous"
     ></script>
     <script src="src/assets/js/UX/toggle-mobile-menu.js"></script>
+    <script
+      src="src/assets/js/markup-injectors/inject-activity-markup-template.js"
+      type="module"
+    ></script>
   </body>
 </html>
