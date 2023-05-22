@@ -8,3 +8,11 @@ ul {
 a {
   color: var(--color-dark-blue);
 }
+
+.mr-3 {
+  margin-right: 1rem;
+}
+
+.navbar > .container {
+  justify-content: flex-end;
+}
