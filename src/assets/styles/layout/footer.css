@@ -1,13 +1,3 @@
-.home-page-footer {
-  background-color: var(--color-white);
-  color: var(--color-dark-blue);
-}
-
-.about-page-footer {
-  background-color: var(--color-darker-gray);
-  color: var(--color-white);
-}
-
 .footer-content--wrapper {
   padding: 1rem;
   margin: 2rem auto;
