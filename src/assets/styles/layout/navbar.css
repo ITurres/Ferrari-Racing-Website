@@ -3,12 +3,12 @@
   width: 100%;
 }
 
-/* .navbar-brand {
-  display: none;
-} */
-
 .my-navbar {
   height: 76px;
+}
+
+.desktop-navbar {
+  display: none;
 }
 
 .hamburger-button,
