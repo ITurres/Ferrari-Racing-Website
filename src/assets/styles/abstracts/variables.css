@@ -12,6 +12,7 @@
   --color-dark-gray: #4f4f4f;
   --color-gray: #414246;
   --color-dark-gray-transparent: #4f4f4f83;
+  --color-darker-gray: #2f2f2e;
 
   /* transitions */
   --transition-all-02s-eio: all 0.2s ease-in-out;
