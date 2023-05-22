@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .footer-content--wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: left;
+    padding-top: 2rem;
+  }
+
+  .footer__about {
+    max-width: 700px;
+  }
+}
