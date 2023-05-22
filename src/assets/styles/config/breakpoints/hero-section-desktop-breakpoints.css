@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
   .hero-section {
-    height: calc(100vh - 115px);
+    height: 100vh;
     background-position: bottom;
   }
 
