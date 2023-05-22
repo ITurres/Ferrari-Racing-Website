@@ -1,4 +1,13 @@
 @media (min-width: 768px) {
+  .desktop-navbar {
+    display: flex;
+    background-color: var(--color-darker-gray);
+  }
+
+  .desktop-navbar__link {
+    color: var(--color-white);
+  }
+
   .my-header {
     background-color: #fff;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
@@ -32,11 +41,13 @@
   }
 
   .my-navbar__link,
-  .my-navbar__link.bordered-link {
+  .my-navbar__link.bordered-link,
+  .desktop-navbar__link {
     transition: var(--transition-all-02s-eio);
   }
 
-  .my-navbar__link:hover {
+  .my-navbar__link:hover,
+  .desktop-navbar__link:hover {
     color: var(--color-orange);
   }
 
