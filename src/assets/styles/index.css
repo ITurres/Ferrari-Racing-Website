@@ -19,6 +19,7 @@
 
 @import 'layout/navbar.css';
 @import 'layout/hero-section.css';
+@import 'layout/footer.css';
 
 /* pages */
 @import 'pages/home-page.css';
@@ -29,6 +30,7 @@
 @import 'config/breakpoints/hero-section-desktop-breakpoints.css';
 @import 'config/breakpoints/home-page-activities-section-breakpoints.css';
 @import 'config/breakpoints/home-page-upcoming-races-section-breakpoints.css';
+@import 'config/breakpoints/footer-desktop-breakpoints.css';
 
 /* vendors-extensions */
 
