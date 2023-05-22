@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+  /* START of => desktop-floating-navbar */
+
+  .floating-desktop-navbar {
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+  }
+
+  /* END of => desktop-floating-navbar */
+
+  /* START of => hero-section about */
+
+  .hero-section.about {
+    gap: 7rem;
+  }
+
+  .hero-section__intro {
+    width: 100%;
+  }
+
+  .fa-arrow {
+    color: var(--color-orange);
+  }
+
+  .floating.desktop-navbar__link {
+    color: var(--color-dark-blue);
+    transition: var(--transition-all-02s-eio);
+  }
+
+  .floating.desktop-navbar__link:hover {
+    color: var(--color-orange);
+  }
+  /* END of => hero-section about */
+
+  /* START of => partners section */
+
+  #partners.about-page {
+    display: none;
+  }
+
+  /* END of => partners section */
+
+  /* START of => footer section */
+
+  .about.page-footer {
+    background-color: var(--color-darker-gray);
+    color: var(--color-white);
+  }
+
+  /* START of => footer section */
+}
