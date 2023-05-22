@@ -18,18 +18,17 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  background:
-    linear-gradient(
-      140deg,
-      var(--color-red),
-      var(--color-red),
-      var(--color-white),
-      var(--color-bright-orange),
-      var(--color-dark-red),
-      var(--color-white),
-      var(--color-orange),
-      var(--color-red)
-    );
+  background: linear-gradient(
+    140deg,
+    var(--color-red),
+    var(--color-red),
+    var(--color-white),
+    var(--color-bright-orange),
+    var(--color-dark-red),
+    var(--color-white),
+    var(--color-orange),
+    var(--color-red)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -78,6 +77,10 @@ hr {
 
 /* START of => about-logo section */
 
+#about-logo {
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
 .about-logo--wrapper .navbar-brand img {
   border: 1px solid var(--color-light-gray);
   margin-bottom: 3.5rem;
@@ -102,6 +105,11 @@ hr {
 
 /* START of => past-races section */
 
+#past-races .section__title {
+  padding: 0 1.5rem;
+  margin-top: 3rem;
+}
+
 .past-races-images--wrapper,
 .past-races-link figcaption {
   display: flex;
@@ -111,7 +119,6 @@ hr {
 }
 
 .past-races-images--wrapper {
-  gap: 0.8rem;
   padding: 3rem;
 }
 

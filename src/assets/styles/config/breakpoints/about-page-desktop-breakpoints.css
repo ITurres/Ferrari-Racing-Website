@@ -36,12 +36,24 @@
 
   /* END of => hero-section about */
 
+  /* START of => about-logo section */
+
+  .about-logo--wrapper .navbar-brand img {
+    margin-bottom: 5rem;
+  }
+
+  /* END of => about-logo section */
+
   /* START of => past-races section */
 
   .past-races-images--wrapper {
     flex-direction: row;
     gap: 2rem;
     margin-bottom: 3rem;
+  }
+
+  #past-races .section__title {
+    margin-top: 4rem;
   }
 
   /* END of => past-races section */
