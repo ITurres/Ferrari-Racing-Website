@@ -34,6 +34,16 @@
 
   /* END of => hero-section about */
 
+  /* START of => past-races section */
+
+  .past-races-images--wrapper {
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  /* END of => past-races section */
+
   /* START of => partners section */
 
   #partners.about-page {
