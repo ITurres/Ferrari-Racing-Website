@@ -134,33 +134,3 @@ hr {
 }
 
 /* END of => upcoming-races section */
-
-/* START of => partners section */
-
-#partners {
-  background-color: var(--color-gray);
-}
-
-#partners .section__title {
-  margin-bottom: 2rem;
-}
-
-.partner-logos-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  align-items: center;
-  justify-items: center;
-  margin-bottom: 3.5rem;
-}
-
-.partner-logo {
-  width: 100%;
-  max-width: 110px;
-  margin: 0.5rem;
-}
-
-.partner-logo:last-child {
-  align-self: center;
-}
-
-/* END of => partners section */
