@@ -4,6 +4,8 @@
   .floating-desktop-navbar {
     display: flex;
     background-color: transparent;
+    position: absolute;
+    top: 15%;
     width: 100%;
   }
 
