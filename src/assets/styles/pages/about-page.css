@@ -77,6 +77,30 @@ hr {
 
 /* END of => sections general styles */
 
+/* START of => about-logo section */
+
+.about-logo--wrapper .navbar-brand img {
+  border: 1px solid var(--color-light-gray);
+  margin-bottom: 3.5rem;
+  transition: var(--transition-all-02s-eio);
+}
+
+.about-logo--wrapper .navbar-brand img:hover {
+  border-bottom: 1px solid var(--color-red);
+}
+
+.about-logo--wrapper .section__title {
+  color: var(--color-dark-blue);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.about-logo--wrapper .about-logo__about {
+  width: 80%;
+}
+
+/* END of => about-logo section */
+
 /* START of => footer */
 
 .footer-content--wrapper {
