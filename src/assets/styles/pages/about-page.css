@@ -1,0 +1,86 @@
+/* START of => desktop-floating-navbar */
+
+.floating-desktop-navbar {
+  display: none;
+}
+
+/* END of => desktop-floating-navbar */
+
+/* START of => hero-section */
+
+.hero-section {
+  background-image: url('../../media/bg-images/ferrari-racing-about-hero-bg.webp');
+  text-align: center;
+}
+
+.hero-section__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(
+    140deg,
+    var(--color-red),
+    var(--color-red),
+    var(--color-white),
+    var(--color-bright-orange),
+    var(--color-dark-red),
+    var(--color-white),
+    var(--color-orange),
+    var(--color-red)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-section__intro {
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: 5px solid var(--color-white);
+  background-color: var(--color-light-gray-transparent);
+  padding: 1rem;
+}
+
+.hero-section__contact {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 70%;
+}
+
+.hero-section__contact strong {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+/* END of => hero-section */
+
+/* START of => sections general styles */
+
+.section__title {
+  color: var(--color-white);
+}
+
+.section__title {
+  font-weight: 400;
+}
+
+hr {
+  background-color: var(--color-dark-orange);
+  border: 1px solid var(--color-dark-orange);
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+/* END of => sections general styles */
+
+/* START of => footer */
+
+.footer-content--wrapper {
+  display: flex;
+}
+
+/* END of => footer */
