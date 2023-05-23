@@ -2,10 +2,10 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="" alt="logo" width="140"  height="auto" />
+  <img src="readme-src/media/scuderia-ferrari-logo.png" alt="ferrari logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h2><i>Ferrari Racing Website</i></h2>
 
 </div>
 
@@ -34,36 +34,51 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Ferrari Racing Website <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**Ferrari Racing Website** is a mockup website to practice markup, styles and dynamism.
 
-**[your_project__name]** is a...
+#### The learning objectives cover on this project were:
+
+- Understand how to use medium-fidelity wireframes to create a UI.
+- Follow written requirements (e.g. user stories).
+- Use semantic HTML tags.
+- Apply best practices in HTML code.
+- Use CSS selectors correctly.
+- Use CSS box model.
+- Use Flexbox and Grid to place elements in the page.
+- Use images and backgrounds to enhance the look of a website.
+- Demonstrate ability to create UIs adaptable to different screen sizes using media queries.
+- Use GitHub Pages to deploy web pages.
+- Apply JavaScript best practices and language style guides in code.
+- Use JavaScript to manipulate DOM elements.
+- Use JavaScript events.
+- Use objects to store and access data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>Markup</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Styles</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+
+<summary>Dynamic</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
 
@@ -71,11 +86,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Mobile Menu**
+- **Dynamic injection of HTML Markup**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,9 +95,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://iturres.github.io/Ferrari-Racing-Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,39 +103,38 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
+- Not applicable
 <!--
 Example command:
 
 ```sh
  gem install rails
 ```
- -->
+
+-->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:ITurres/Ferrari-Racing-Website.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
+- Not applicable
 <!--
 Example command:
 
@@ -133,43 +142,50 @@ Example command:
   cd my-project
   gem install
 ```
+
 --->
 
 ### Usage
 
 To run the project, execute the following command:
 
+- Not applicable
 <!--
 Example command:
 
 ```sh
   rails server
 ```
+
 --->
 
 ### Run tests
 
 To run tests, run the following command:
 
+- Not applicable
 <!--
 Example command:
 
 ```sh
   bin/rails test test/models/article_test.rb
 ```
+
 --->
 
 ### Deployment
 
 You can deploy this project using:
 
+- LiveServer or the like.
 <!--
 Example:
 
 ```sh
 
 ```
- -->
+
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,19 +193,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ITurres](https://github.com/ITurres)
+- Twitter: [@Arthur_ITurres](https://twitter.com/ArthurIturres)
+- LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,11 +205,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **See More `button` for the 'Upcoming Races Section'**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,9 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐ if you liked this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -229,9 +231,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+Original [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) idea by [Cindy Shin](https://www.behance.net/adagio07) in Behance.
 
-I would like to thank...
+Content and Images of and from [Ferrari](https://www.ferrari.com/en-AR/formula1).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,3 +246,5 @@ This project is [MIT](./LICENSE) licensed.
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
