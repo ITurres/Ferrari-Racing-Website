@@ -13,6 +13,11 @@
 
   /* START of => hero-section about */
 
+  .hero-section__title {
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
   .hero-section.about {
     gap: 7rem;
   }
