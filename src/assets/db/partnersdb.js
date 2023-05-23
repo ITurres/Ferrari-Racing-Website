@@ -26,7 +26,7 @@ const partnersdb = {
   },
   santander: {
     img: {
-      src: `${partnersLogoSrcPath}santander-logo.png`,
+      src: `${partnersLogoSrcPath}santander-Logo.png`,
       alt: 'santander company logo'
     }
   }
