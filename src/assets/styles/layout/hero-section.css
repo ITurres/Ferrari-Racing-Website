@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+.hero-section {
+  background-image: url('../../media/bg-images/ferrari-racing-hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-section__title {
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  font-size: 8vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  background:
+    linear-gradient(
+      140deg,
+      var(--color-red),
+      var(--color-bright-orange),
+      var(--color-dark-red),
+      var(--color-orange),
+      var(--color-orange),
+      var(--color-red)
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-section__intro {
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: 5px solid var(--color-white);
+  background-color: var(--color-orange-transparent);
+  padding: 1rem;
+}
+
+.hero-section__date {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 1rem 0;
+}

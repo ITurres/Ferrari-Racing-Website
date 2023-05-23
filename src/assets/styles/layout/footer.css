@@ -1,0 +1,11 @@
+.footer-content--wrapper {
+  padding: 1rem 2rem 1rem 1rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}

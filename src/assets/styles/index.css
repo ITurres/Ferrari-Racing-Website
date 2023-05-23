@@ -1,0 +1,39 @@
+/* abstracts */
+
+@import 'abstracts/variables.css';
+
+/* base */
+
+@import 'base/normalize.css';
+@import 'base/base.css';
+
+/* components */
+
+/* UI */
+
+@import 'components/UI/mobile-buy-tickets-btn.css';
+
+/* UX */
+
+/* layout */
+
+@import 'layout/navbar.css';
+@import 'layout/hero-section.css';
+@import 'layout/partners-section.css';
+@import 'layout/footer.css';
+
+/* pages */
+@import 'pages/home-page.css';
+
+/* config/breakpoints */
+
+@import 'config/breakpoints/navbar-desktop-breakpoints.css';
+@import 'config/breakpoints/hero-section-desktop-breakpoints.css';
+@import 'config/breakpoints/hero-section-title-size-breakpoints.css';
+@import 'config/breakpoints/home-page-activities-section-breakpoints.css';
+@import 'config/breakpoints/home-page-upcoming-races-section-breakpoints.css';
+@import 'config/breakpoints/footer-desktop-breakpoints.css';
+
+/* vendors-extensions */
+
+@import 'vendors-extensions/bootstrap-overrides.css';

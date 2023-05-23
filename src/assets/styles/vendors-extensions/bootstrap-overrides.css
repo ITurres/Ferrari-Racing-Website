@@ -1,0 +1,14 @@
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: var(--color-dark-blue);
+}
+
+.navbar > .container {
+  justify-content: flex-end;
+}

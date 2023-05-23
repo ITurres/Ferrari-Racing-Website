@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .hero-section__title {
+    font-size: 7vw;
+  }
+}
+
+@media (min-width: 1100px) {
+  .hero-section__title {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 1500px) {
+  .hero-section__title {
+    font-size: 4vw;
+  }
+}

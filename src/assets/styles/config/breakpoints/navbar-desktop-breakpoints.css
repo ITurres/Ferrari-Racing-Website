@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+  .desktop-navbar {
+    display: flex;
+    background-color: var(--color-darker-gray);
+  }
+
+  .desktop-navbar__link {
+    color: var(--color-white);
+  }
+
+  .my-header {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .my-navbar ul {
+    position: initial;
+    visibility: visible;
+    flex-direction: row;
+    z-index: 0;
+    height: auto;
+    width: initial;
+    padding: 0;
+    border-right: none;
+  }
+
+  .hamburger-button,
+  .x-button {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+
+  .my-navbar__link {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-left: 3rem;
+    color: var(--color-dark-gray);
+  }
+
+  .my-navbar__link,
+  .my-navbar__link.bordered-link,
+  .desktop-navbar__link {
+    transition: var(--transition-all-02s-eio);
+  }
+
+  .my-navbar__link:hover,
+  .desktop-navbar__link:hover {
+    color: var(--color-orange);
+  }
+
+  .my-navbar__link.bordered-link:hover {
+    border: 4px dashed var(--color-orange);
+  }
+
+  .mr-3 {
+    margin-right: 1rem;
+  }
+}
