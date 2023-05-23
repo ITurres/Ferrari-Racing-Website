@@ -27,6 +27,7 @@
 
 @import 'config/breakpoints/navbar-desktop-breakpoints.css';
 @import 'config/breakpoints/hero-section-desktop-breakpoints.css';
+@import 'config/breakpoints/hero-section-title-size-breakpoints.css';
 @import 'config/breakpoints/about-page-desktop-breakpoints.css';
 @import 'config/breakpoints/about-page-partners-section-breakpoints.css';
 @import 'config/breakpoints/footer-desktop-breakpoints.css';
