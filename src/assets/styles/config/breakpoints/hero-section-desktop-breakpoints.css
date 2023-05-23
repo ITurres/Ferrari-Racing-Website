@@ -5,8 +5,8 @@
   }
 
   .hero-section__title {
-    font-size: 4vw;
     margin-bottom: 1.5rem;
+    width: 90%;
   }
 
   .hero-section__intro {
