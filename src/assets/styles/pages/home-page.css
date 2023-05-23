@@ -92,6 +92,7 @@ hr {
   align-items: center;
   gap: 1.2rem;
   max-width: 500px;
+  height: fit-content;
   padding: 0.5rem 0;
 }
 
